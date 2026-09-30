@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - DFW PipePros</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="./index.html" class="logo">DFW <span>PipePros</span></a>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Contact DFW PipePros</h2>
+    <p style="margin-bottom: 2rem;">Get in touch for appointments, quotes, or emergency services.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
+      <div style="flex: 1; min-width: 300px;">
+        <div class="info-box">
+          <h3>Business Location</h3>
+          <p><strong>Address:</strong> 1350 E Arapaho Rd Ste 130, Richardson, TX 75081, United States</p>
+          <p><strong>Located in:</strong> Arapaho Creek</p>
+        </div>
+        <div class="info-box">
+          <h3>Contact Details</h3>
+          <p><strong>Phone:</strong> <a href="tel:+12148519333">+1 214-851-9333</a></p>
+          <p><strong>Website:</strong> www.DFWPipePros.com</p>
+          <p><strong>Hours:</strong> Opens 8:00 AM Wed</p>
+        </div>
+      </div>
+
+      <div style="flex: 1; min-width: 300px;">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" required placeholder="214-000-0000">
+          </div>
+          <div class="form-group">
+            <label for="message">Message / Details</label>
+            <textarea id="message" rows="4" placeholder="Describe your plumbing issue..."></textarea>
+          </div>
+          <button type="submit" class="btn">Send Request</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; DFW PipePros. All Rights Reserved.</p>
+    <p>1350 E Arapaho Rd Ste 130, Richardson, TX 75081 | Phone: +1 214-851-9333</p>
+  </footer>
+</body>
+</html>
